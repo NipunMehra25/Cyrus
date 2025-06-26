@@ -1,1 +1,29 @@
+🛠️ Installation
+Prerequisites
+Python 3.7+
+Windows OS (for some automation features)
+Microphone for voice input
+Tesseract OCR installed
+Required Dependencies
+pip install pyautogui
+pip install speechrecognition
+pip install pyttsx3
+pip install google-generativeai
+pip install pyperclip
+pip install pytesseract
+pip install pillow
+pip install numpy
+pip install easyocr
+Additional Setup
+Install Tesseract OCR:
 
+Download from: https://github.com/tesseract-ocr/tesseract
+Install to: C:\Program Files\Tesseract-OCR\
+Get Google Gemini API Keys:
+
+Visit: https://makersuite.google.com/app/apikey
+Generate API keys and replace in the api_keys list
+Update File Paths:
+
+Replace image paths in the code with your actual screenshot paths
+Update Tesseract path if installed elsewhere
