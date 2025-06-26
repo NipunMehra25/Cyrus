@@ -27,3 +27,21 @@ Update File Paths:
 
 Replace image paths in the code with your actual screenshot paths
 Update Tesseract path if installed elsewhere
+
+🔧 Configuration
+API Key Setup
+Replace the placeholder API keys in the code:
+
+api_keys = [
+    "YOUR_GEMINI_API_KEY_1",
+    "YOUR_GEMINI_API_KEY_2",
+    # Add more keys for better reliability
+]
+Voice Settings
+Adjust speech rate and voice properties:
+
+engine.setProperty("rate", 180)  # Speech speed
+Screen Region
+Configure screen capture area:
+
+x, y, width, height = 122, 171, 1625, 713  # Adjust as needed
